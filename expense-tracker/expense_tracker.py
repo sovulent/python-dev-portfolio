@@ -25,3 +25,11 @@ print("Number of expenses:",expense_count)
 # Calculate the average expense + print the result
 average = total / expense_count
 print("Average expense:",average)
+
+# Find the largest expense + print the result
+highest_expense = max(expenses)
+print("Highest expense:",highest_expense)
+
+# Find the smallest expense + print the result
+lowest_expense = min(expenses)
+print("Lowest expense:",lowest_expense)
